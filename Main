@@ -1,0 +1,21 @@
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Wyhos Ware", "Ocean")
+local Tab = Window:NewTab("Aimlock")
+getgenv().RecurringPoint = "UpperTorso"
+getgenv().Hitbox = "UpperTorso"
+getgenv().Keybind = "q"
+getgenv().AimbotStrengthAmount = 0.09969
+getgenv().PredictionAmount = 10
+getgenv().Radius = 25
+getgenv().UsePrediction = true
+getgenv().AimbotStrength = true
+getgenv().FirstPerson = true
+getgenv().ThirdPerson = true
+getgenv().TeamCheck = false
+getgenv().Enabled = true
+
+
+-- // main script  / / -- 
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Wyhos/WyhosWare/main/WyhosWare"))()
